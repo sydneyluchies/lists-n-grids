@@ -1,44 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>List</title>
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>List</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Denk+One" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
 
-<main>
-  <h1>Prehistoric mammals</h1>
-  <div class="grid">
-    <div class="unit xs-1 m-1-2 card">
-      <img class="img-flex"src="images/arsinoitherium.jpg"alt="">
-      <h2>Arsinoitherium</h2>
-      <p>Arsinoitherium is an extinct genus mammal that were superficially rhinoceros-like herbivores that lived in northern Africa from 36 to 30 million years ago.</p>
-      <a href="https://en.wikipedia.org/wiki/Arsinoitherium">Learn more about Arsinoitherium</a>
-    </div>
-    <div class="unit xs-1 m-1-2 card">
-      <img class="img-flex"src="images/elasmotherium.jpg"alt="">
-      <h2>Elasmotherium</h2>
-      <p>Elasmotherium, also known as the Giant Siberian Unicorn, is an extinct genus of rhinoceros endemic to Eurasia during the Late Pliocene through the Pleistocene.</p>
-      <a href="https://en.wikipedia.org/wiki/Elasmotherium">Learn more about Elasmotherium<</a>
-    </div>
-    <div class="unit xs-1 m-1-2 card">
-      <img class="img-flex"src="images/glyptodon.jpg"alt="">
-      <h2>Glyptodon</h2>
-      <p>Glyptodon was a large, armored mammal, a relative of armadillos that lived during the Pleistocene epoch.</p>
-      <a href="https://en.wikipedia.org/wiki/Glyptodon">Learn more about Glyptodon</a>
-    </div>
-    <div class="unit xs-1 m-1-2 card">
-      <img class="img-flex"src="images/megatherium.jpg"alt="">
-      <h2>Megatherium</h2>
-      <p>Megatherium was a genus of elephant-sized ground sloths endemic to South America that lived from the Early Pliocene to the Pleistocene.</p>
-      <a href="https://en.wikipedia.org/wiki/Megatherium">Learn more about Megatherium</a>
-    </div>
-  </div>
-
-</main>
 <body>
+  <main class="island-1-4 grid-stretch unit-content-distribute content-fill">
+    <h1 class="gutter-1-4 pad-t-1-4 push-0 pad-b-1-2">Prehistoric mammals</h1>
+    <ol class="grid">
+      <li class="unit xs-1 m-1-2 l-1-2 island-1-4">
+        <div class="pad-b-1-2">
+          <div class="card island-1-2">
+            <img class="img-flex" src="images/arsinoitherium.jpg" alt="">
+            <h2 class=" giga pad-t-1-2 push-0">Arsinoitherium</h2>
+            <p class="pad-t-1-2 push-0">Arsinoitherium is an extinct genus mammal that were superficially rhinoceros-like herbivores that lived in northern Africa from 36 to 30 million years ago.</p>
+            <div class="pad-t-1-2">
+              <a class="mega" href="https://en.wikipedia.org/wiki/Arsinoitherium">Learn more about Arsinoitherium</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="unit xs-1 m-1-2 l-1-2 gutter-1-4">
+        <div class="pad-t-1-4 pad-b-1-2">
+          <div class="card island-1-2">
+            <img class="img-flex" src="images/elasmotherium.jpg" alt="">
+            <h2 class=" giga pad-t-1-2 push-0">Elasmotherium</h2>
+            <p class="pad-t-1-2 push-0">Elasmotherium, also known as the Giant Siberian Unicorn, is an extinct genus of rhinoceros endemic to Eurasia during the Late Pliocene through the Pleistocene.</p>
+          </div>
+          <div class="pad-t-1-2">
+            <a class="mega" href="https://en.wikipedia.org/wiki/Elasmotherium">Learn more about Elasmotherium</a>
+          </div>
+        </div>
+      </li>
+      <li class="unit xs-1 m-1-2 l-1-2 island-1-4 item">
+        <div class="pad-t-1-4 pad-b-1-4">
+          <div class="card island-1-2">
+            <img class="img-flex" src="images/glyptodon.jpg" alt="">
+            <h2 class=" giga pad-t-1-2 push-0">Glyptodon</h2>
+            <p class="pad-t-1-2 push-0">Glyptodon was a large, armored mammal, a relative of armadillos that lived during the Pleistocene epoch.</p>
+            <div class="pad-t-1-2">
+              <a class="mega" href="https://en.wikipedia.org/wiki/Glyptodon">Learn more about Glyptodon</a>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="unit xs-1 m-1-2 l-1-2 island-1-4">
+        <div class="pad-t-1-4 pad-b-1-2">
+          <div class="card island-1-2">
+            <img class="img-flex" src="images/megatherium.jpg" alt="">
+            <h2 class=" giga pad-t-1-2 push-0">Megatherium</h2>
+            <p class="pad-t-1-2 push-0">Megatherium was a genus of elephant-sized ground sloths endemic to South America that lived from the Early Pliocene to the Pleistocene.</p>
+            <div class="pad-t-1-2">
+              <a class="mega" href="https://en.wikipedia.org/wiki/Megatherium">Learn more about Megatherium</a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </main>
 </body>
 </html>
